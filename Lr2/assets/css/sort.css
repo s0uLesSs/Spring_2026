@@ -1,0 +1,26 @@
+.my-sort {
+    margin: 20px; /* Отступ вокруг блока */
+    text-align: center; /* Центрирование содержимого */
+}
+
+.my-sort select {
+    padding: 10px 15px; /* Внутренние отступы */
+    border: 2px solid #000; /* Цвет рамки */
+    border-radius: 5px; /* Закругление углов */
+    background-color: #f9f9f9; /* Цвет фона */
+    font-size: 16px; /* Размер шрифта */
+    color: #333; /* Цвет текста */
+    cursor: pointer; /* Указатель при наведении */
+    transition: border-color 0.3s, background-color 0.3s; /* Плавный переход при наведении */
+}
+
+.my-sort select:hover {
+    border-color: #000; /* Цвет рамки при наведении */
+    background-color: rgb(144, 227, 255); /* Цвет фона при наведении */
+}
+
+.my-sort select:focus {
+    outline: none; /* Убираем стандартное обрамление при фокусе */
+    border-color: #000; /* Цвет рамки при фокусе */
+    background-color: rgb(144, 227, 255);; /* Цвет фона при фокусе */
+}
